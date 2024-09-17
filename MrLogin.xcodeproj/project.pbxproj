@@ -69,6 +69,7 @@
 		1848947C2C998D3A004C5940 /* MrLogin */ = {
 			isa = PBXGroup;
 			children = (
+				18F81A522C99C68C006ABC80 /* View */,
 				184894992C9995A4004C5940 /* Component */,
 				184894942C9992B9004C5940 /* ViewModel */,
 				184894912C99914E004C5940 /* Model */,
@@ -76,8 +77,6 @@
 				1848948B2C998D54004C5940 /* Service */,
 				1848947D2C998D3A004C5940 /* MrLoginApp.swift */,
 				1848947F2C998D3A004C5940 /* ContentView.swift */,
-				184894972C9994EC004C5940 /* LoginView.swift */,
-				184894A02C99A009004C5940 /* ProfileView.swift */,
 				184894812C998D3C004C5940 /* Assets.xcassets */,
 				184894832C998D3C004C5940 /* Preview Content */,
 			);
@@ -132,6 +131,15 @@
 				1848949E2C999F5C004C5940 /* MrThemeView.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		18F81A522C99C68C006ABC80 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184894972C9994EC004C5940 /* LoginView.swift */,
+				184894A02C99A009004C5940 /* ProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
